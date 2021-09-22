@@ -8,7 +8,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path ="/" exact component = {Home} />git 
+        <Route path ="/" exact component = {Home} />
         <Route path ="/a-propos" exact component = {About} />
         <Route component = {NotFound} />
       </Switch>

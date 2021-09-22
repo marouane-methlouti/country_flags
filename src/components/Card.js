@@ -16,6 +16,7 @@ const Card = (props) => {
                     <li>Country : {country.name}</li>
                     <li>Capital : {country.capital}</li>
                     <li>Population : {numberFormat (country.population)}</li>
+                    <li>{country.altSpellings[2]}</li>
 
                 </ul>
 
